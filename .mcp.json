@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "toolstile": {
+      "type": "http",
+      "url": "https://toolstile.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "toolstile",
+  "version": "0.2.0",
+  "description": "Connect to your remote MCP servers through Toolstile and manage each agent's tool access in one place.",
+  "author": {
+    "name": "Akshit Kr Nagpal",
+    "email": "contact@toolstile.com"
+  },
+  "homepage": "https://toolstile.com",
+  "repository": "https://github.com/toolstile/plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "gateway",
+    "tools",
+    "permissions"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Toolstile",
+        "shortDescription": "Control access to MCP tools",
+        "longDescription": "Connect compatible remote MCP servers to your Toolstile workspace, then choose which tools each authorized AI app can use. This plugin connects to the Toolstile gateway and includes setup guidance. Available tools depend on your connected services, selected workspace, and access grants. Provider credentials remain in Toolstile rather than in this plugin's configuration.",
+        "developerName": "Toolstile",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Remote MCP access",
+          "Setup guidance"
+        ],
+        "defaultPrompt": [
+          "Help me connect this app to my Toolstile workspace.",
+          "Help me check which connected tools this app can use.",
+          "Help me troubleshoot why my Toolstile connection shows no tools."
+        ],
+        "websiteURL": "https://toolstile.com",
+        "supportURL": "https://toolstile.com/faq",
+        "privacyPolicyURL": "https://toolstile.com/privacy",
+        "termsOfServiceURL": "https://toolstile.com/terms",
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png"
+      },
+      "publication": {
+        "countries": [],
+        "release_notes": "Initial cross-platform Toolstile package with a remote MCP connection and setup guidance."
+      },
+      "review": {
+        "prompts": [
+          "Help me connect this app to my Toolstile workspace.",
+          "Help me check which connected tools this app can use.",
+          "Help me troubleshoot why my Toolstile connection shows no tools."
+        ],
+        "commerce": false,
+        "commerce_description": "This plugin connects to the separately billed Toolstile service. It does not provide an in-app purchase or checkout flow."
+      }
+    }
+  }
+}
