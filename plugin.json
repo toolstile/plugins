@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "toolstile",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Connect to your remote MCP servers through Toolstile and manage each agent's tool access in one place.",
   "author": {
     "name": "Akshit Kr Nagpal",
