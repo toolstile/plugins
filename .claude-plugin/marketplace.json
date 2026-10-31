@@ -9,7 +9,7 @@
       "name": "toolstile",
       "source": "./",
       "description": "Connect to Toolstile's remote MCP gateway with setup guidance.",
-      "version": "0.2.1"
+      "version": "0.3.0"
     }
   ],
   "metadata": {

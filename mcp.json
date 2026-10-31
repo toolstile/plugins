@@ -3,7 +3,7 @@
   "mcpServers": {
     "toolstile": {
       "type": "streamable-http",
-      "url": "https://toolstile.com/mcp"
+      "url": "https://mcp.toolstile.com/mcp"
     }
   }
 }

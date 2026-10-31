@@ -1,12 +1,12 @@
 {
   "name": "toolstile",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Connect to your remote MCP servers through Toolstile and manage each agent's tool access in one place.",
   "author": {
     "name": "Akshit Kr Nagpal",
     "email": "contact@toolstile.com"
   },
-  "homepage": "https://toolstile.com",
+  "homepage": "https://www.toolstile.com",
   "repository": "https://github.com/toolstile/plugins",
   "license": "MIT",
   "keywords": [
