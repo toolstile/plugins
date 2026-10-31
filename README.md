@@ -1,6 +1,6 @@
 # Toolstile plugins
 
-Public integration packages for [Toolstile](https://toolstile.com), an MCP gateway
+Public integration packages for [Toolstile](https://www.toolstile.com), an MCP gateway
 for the remote servers connected to your workspace. Choose which tools each
 authorized AI app can use in Toolstile.
 
@@ -29,13 +29,13 @@ Restart Cursor or run **Developer: Reload Window**. Check **Customize → MCPs**
 for the server and sign-in prompt. Organization policy must allow local plugin
 imports. A marketplace installation with the same name takes precedence over
 a local copy. Alternatively, use the
-[manual Cursor setup guide](https://toolstile.com/docs/clients/cursor).
+[manual Cursor setup guide](https://www.toolstile.com/docs/clients/cursor).
 
 ### Other clients
 
 Point any client that supports remote MCP with OAuth at
-`https://toolstile.com/mcp`. See the
-[client setup guides](https://toolstile.com/docs/clients).
+`https://mcp.toolstile.com/mcp`. See the
+[client setup guides](https://www.toolstile.com/docs/clients).
 
 ## Connect your workspace
 
@@ -51,9 +51,9 @@ Requests go to Toolstile and, when allowed, the remote services you connected.
 Available tools and data depend on those services and your grants. The setup
 skill does not change permissions or connect upstream accounts automatically.
 
-Read [permissions](https://toolstile.com/docs/permissions), the
-[privacy policy](https://toolstile.com/privacy) and the
-[terms](https://toolstile.com/terms).
+Read [permissions](https://www.toolstile.com/docs/permissions), the
+[privacy policy](https://www.toolstile.com/privacy) and the
+[terms](https://www.toolstile.com/terms).
 
 ## Compatibility
 
@@ -63,7 +63,7 @@ Read [permissions](https://toolstile.com/docs/permissions), the
 - **Portable Agent Plugins:** root `plugin.json` and `mcp.json`.
 - **Shared setup guidance:** `skills/toolstile-setup/SKILL.md`.
 
-All configurations point to `https://toolstile.com/mcp`. Use one installation
+All configurations point to `https://mcp.toolstile.com/mcp`. Use one installation
 per intended authorization to avoid duplicate connections.
 
 This repository contains connection configuration, a setup skill, public
