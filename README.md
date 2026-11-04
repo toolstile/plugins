@@ -87,3 +87,20 @@ For support, bug reports, or feature requests, email
 [support@toolstile.com](mailto:support@toolstile.com).
 Directory and publisher contact: [contact@toolstile.com](mailto:contact@toolstile.com).
 GitHub Issues are disabled. Do not send credentials or private request data.
+
+## Local validation
+
+Run the dependency-free checks with Node.js 22 or newer:
+
+```sh
+node scripts/validate-manifests.mjs
+```
+
+The checks cover the repository's Claude, Cursor and portable manifest contracts,
+version consistency, local asset and skill references, MCP transport formats,
+and support references. They do not contact Toolstile or certify acceptance by a
+host or directory. Host-specific fields and transport names are intentional.
+The portable manifest has no obsolete `com.openai` extension; the shared setup
+skill and MCP configuration remain available to compatible hosts.
+
+Validation is local only. GitHub Actions remain disabled.
