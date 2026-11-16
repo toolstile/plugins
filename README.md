@@ -39,7 +39,9 @@ Point any client that supports remote MCP with OAuth at
 
 ## Connect your workspace
 
-1. Create a Toolstile account and connect a compatible remote MCP server.
+1. [Create a Toolstile account](https://app.toolstile.com/auth/sign-up) and
+   connect a compatible remote MCP server. The Free plan includes 5,000
+   operations a month and needs no card.
 2. Install the package and complete its browser sign-in prompt.
 3. Select the Toolstile workspace this app should use.
 4. Grant the new agent access in Toolstile. Signing in alone grants no tools.
